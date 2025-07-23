@@ -52,3 +52,31 @@
 }
 /* header-section-ends-from-here */
 /* hero-section-starts-from-here */
+.hero-section {
+  display: flex;
+  align-items: center;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-description {
+  width: 50%;
+}
+.banner-heading {
+  font-size: 4.0625rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+}
+#banner-heading-style {
+  font-size: 4.0625rem;
+  font-weight: 700;
+  color: rgba(233, 90, 8, 1);
+}
+.banner-description {
+  font-size: 1.327rem;
+  font-weight: 400;
+  width: 100%;
+}
+.banner-img {
+  width: 100%;
+}
