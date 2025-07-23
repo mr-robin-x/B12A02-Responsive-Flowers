@@ -50,7 +50,7 @@
   font-size: 1rem;
   font-weight: 700;
 }
-/* header-section-ends-from-here */
+/* header-section-ends-here */
 /* hero-section-starts-from-here */
 .hero-section {
   display: flex;
@@ -80,7 +80,61 @@
 .banner-img {
   width: 100%;
 }
-
+/* hero-section-ends-here */
+/* our-plants-section-start-from-here */
+.our-plant {
+  margin-top: 120px;
+}
+.our-plant-title {
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+#plant {
+  color: rgba(233, 90, 8, 1);
+}
+.our-plant-heading {
+  text-align: center;
+}
+.our-plant-description {
+  max-width: 888px;
+  margin: 0 auto;
+  font-size: 1.375rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.flower-img {
+  margin-bottom: 30px;
+}
+.flower-heading {
+  font-size: 1.375rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.flower-price {
+  font-size: 1.375rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.cart {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  padding: 15px 80px;
+  box-sizing: border-box;
+  background-color: rgba(233, 90, 8, 1);
+  border: none;
+}
+.flower-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 30px;
+}
+.flower-items {
+  text-align: center;
+  width: 100%;
+}
+/* our-plants-section-ends-here */
 /* responsive-mobile-device */
 
 @media screen and (max-width: 393px) {
@@ -139,6 +193,56 @@
   .banner-description {
     font-size: 0.875rem;
   }
+
+  .flower-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 300px;
+    place-items: center;
+    margin: 0 auto;
+  }
+  .cart {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 20px;
+  }
+  .flower-items {
+    max-width: 100%;
+    min-width: 0;
+  }
+  .flower-img {
+    width: 100%;
+  }
+  .our-plant {
+    margin-top: 64px;
+  }
+  .our-plant-heading {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .our-plant-title {
+    margin-bottom: 16px;
+  }
+  .flower-img {
+    margin-bottom: 30px;
+  }
+  .our-plant-description {
+    font-size: 0.875rem;
+    margin-bottom: 28px;
+  }
+  .flower-heading {
+    font-size: 1rem;
+
+    margin-bottom: 10px;
+  }
+  .flower-price {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  .cart {
+    font-size: 0.9rem;
+  }
 }
 @media screen and (min-width: 393px) and (max-width: 488px) {
   .container {
@@ -196,6 +300,51 @@
   .banner-description {
     font-size: 0.875rem;
   }
+  .flower-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 380px;
+    place-items: center;
+    margin: 0 auto;
+  }
+  .flower-items {
+    max-width: 100%;
+    min-width: 0;
+  }
+  .flower-img {
+    width: 100%;
+  }
+  .our-plant {
+    margin-top: 64px;
+  }
+  .our-plant-heading {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .our-plant-title {
+    margin-bottom: 16px;
+  }
+  .flower-img {
+    margin-bottom: 30px;
+  }
+  .our-plant-description {
+    font-size: 0.875rem;
+    margin-bottom: 28px;
+  }
+  .flower-heading {
+    font-size: 1rem;
+
+    margin-bottom: 10px;
+  }
+  .flower-price {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  .cart {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    padding: 15px 40px;
+  }
 }
 @media screen and (min-width: 488px) and (max-width: 580px) {
   .container {
@@ -252,5 +401,47 @@
   }
   .banner-description {
     font-size: 0.875rem;
+  }
+
+  .flower-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .flower-items {
+    max-width: 100%;
+    min-width: 0;
+  }
+  .flower-img {
+    width: 100%;
+  }
+  .our-plant-heading {
+    max-width: 460px;
+    margin: 0 auto;
+  }
+  .our-plant-title {
+    margin-bottom: 16px;
+  }
+  .flower-img {
+    margin-bottom: 30px;
+  }
+  .our-plant-description {
+    font-size: 0.875rem;
+    margin-bottom: 28px;
+  }
+  .flower-heading {
+    font-size: 1rem;
+
+    margin-bottom: 10px;
+  }
+  .flower-price {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  .cart {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    padding: 15px 40px;
   }
 }
