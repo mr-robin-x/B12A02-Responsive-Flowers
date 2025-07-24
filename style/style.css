@@ -190,7 +190,28 @@
   margin-bottom: 20px;
 }
 /* plant-lover-section-ends-here */
-
+/* latest-deals-section-starts-from-here */
+.latest-deals {
+  margin-bottom: 120px;
+}
+.latest-deals-title {
+  text-align: center;
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+#latest {
+  color: rgba(233, 90, 8, 1);
+}
+.latest-deals-description {
+  font-size: 1.375rem;
+  font-weight: 400;
+  max-width: 888px;
+  margin: 0 auto;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* latest-deals-section-ends-here */
 /* responsive-mobile-device */
 
 @media screen and (max-width: 393px) {
@@ -296,7 +317,7 @@
   }
   .flower-price {
     font-size: 1rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .cart {
     font-size: 0.9rem;
@@ -331,6 +352,24 @@
     padding-left: 20px;
   }
   /* plant-lover-section-ends-here */
+  .latest-deals-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  #latest {
+    color: rgba(233, 90, 8, 1);
+  }
+  .latest-deals-description {
+    font-size: 0.875rem;
+    font-weight: 400;
+    max-width: 336px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  /* latest-deals-section-ends-here */
 }
 
 @media screen and (min-width: 393px) and (max-width: 488px) {
@@ -430,7 +469,7 @@
   }
   .flower-price {
     font-size: 1rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .cart {
     font-size: 0.9rem;
@@ -467,6 +506,28 @@
     padding-left: 20px;
   }
   /* plant-lover-section-ends-here */
+  /* latest-deals-section-starts-from-here */
+  .latest-deals {
+    margin-bottom: 51px;
+  }
+  .latest-deals-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  #latest {
+    color: rgba(233, 90, 8, 1);
+  }
+  .latest-deals-description {
+    font-size: 0.875rem;
+    font-weight: 400;
+    max-width: 416px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  /* latest-deals-section-ends-here */
 }
 
 @media screen and (min-width: 488px) and (max-width: 580px) {
@@ -562,7 +623,7 @@
   }
   .flower-price {
     font-size: 1rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .cart {
     font-size: 0.9rem;
@@ -599,4 +660,26 @@
     padding-left: 20px;
   }
   /* plant-lover-section-ends-here */
+  /* latest-deals-section-starts-from-here */
+  .latest-deals {
+    margin-bottom: 51px;
+  }
+  .latest-deals-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  #latest {
+    color: rgba(233, 90, 8, 1);
+  }
+  .latest-deals-description {
+    font-size: 0.875rem;
+    font-weight: 400;
+    max-width: 490px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  /* latest-deals-section-ends-here */
 }
