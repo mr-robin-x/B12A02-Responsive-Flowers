@@ -398,10 +398,6 @@ input::placeholder {
   font-family: inter;
   color: rgba(0, 0, 0, 0.5);
 }
-input:focus {
-  border: 2px solid green;
-  outline: none;
-}
 .submit input {
   padding: 15px 20px;
   background-color: rgba(233, 90, 8, 1);
@@ -752,12 +748,7 @@ footer {
     flex-direction: column;
     gap: 35px;
   }
-  .icon a img {
-    width: 100%;
-    height: 25px;
-    object-fit: contain;
-  }
-}
+
 /* footer-section-ends-here */
 
 @media screen and (min-width: 393px) and (max-width: 488px) {
