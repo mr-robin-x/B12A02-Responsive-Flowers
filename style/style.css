@@ -375,14 +375,14 @@
 }
 input {
   width: 100%;
-  box-sizing: border-box;
+
   font-size: 1rem;
 }
 .input-items {
   display: flex;
   width: 830px;
   gap: 0px;
-  border: none;
+
   align-items: center;
 }
 .email {
@@ -392,7 +392,10 @@ input {
   flex: 1;
 }
 .email input {
-  padding: 15px 20px;
+  padding: 8px 20px;
+  box-sizing: border-box;
+  border: none;
+  line-height: 1.5;
 }
 input::placeholder {
   font-size: 1rem;
@@ -401,7 +404,7 @@ input::placeholder {
   color: rgba(0, 0, 0, 0.5);
 }
 .submit input {
-  padding: 15px 20px;
+  padding: 8px 20px;
   background-color: rgba(233, 90, 8, 1);
   color: white;
   border: none;
@@ -409,6 +412,8 @@ input::placeholder {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
+  box-sizing: border-box;
+  line-height: 1.5;
 }
 .submit input:hover {
   background-color: red;
@@ -701,12 +706,9 @@ footer {
   }
 
   .email input {
-    padding: 14px 20px;
   }
 
   .submit input {
-    padding: 15px 20px;
-
     font-size: 1rem;
   }
   /* join-section-ends-here */
@@ -969,12 +971,9 @@ footer {
   }
 
   .email input {
-    padding: 14px 20px;
   }
 
   .submit input {
-    padding: 15px 20px;
-
     font-size: 1rem;
   }
   /* join-section-ends-here */
@@ -1230,12 +1229,9 @@ footer {
   }
 
   .email input {
-    padding: 14px 20px;
   }
 
   .submit input {
-    padding: 14.5px 20px;
-
     font-size: 1rem;
   }
 
@@ -1491,12 +1487,9 @@ footer {
   }
 
   .email input {
-    padding: 14px 20px;
   }
 
   .submit input {
-    padding: 15px 20px;
-
     font-size: 1rem;
   }
 
