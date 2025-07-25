@@ -315,26 +315,28 @@
 .offer-btn1 {
   font-size: 1rem;
   font-weight: 600;
-  text-decoration: underline;
+
   border: none;
   color: rgba(255, 255, 255, 1);
   position: relative;
   z-index: 2;
   background-color: inherit;
-  text-underline-offset: 3.5px;
+
   cursor: pointer;
 }
 .offer-btn2 {
   font-size: 1.75rem;
   font-weight: 600;
-  text-decoration: underline;
   border: none;
   color: rgba(255, 255, 255, 1);
   position: relative;
   z-index: 2;
   background-color: inherit;
-  text-underline-offset: 5px;
+
   cursor: pointer;
+}
+.underline {
+  border-bottom: 3px solid currentColor;
 }
 .offer-btn2:hover,
 .offer-btn1:hover {
@@ -673,7 +675,6 @@ footer {
   }
   .offer-btn1 {
     font-size: 1rem;
-    text-underline-offset: 4px;
   }
   .offer-btn2 {
     font-size: 1rem;
@@ -748,7 +749,7 @@ footer {
     flex-direction: column;
     gap: 35px;
   }
-
+}
 /* footer-section-ends-here */
 
 @media screen and (min-width: 393px) and (max-width: 488px) {
@@ -1204,7 +1205,6 @@ footer {
   }
   .offer-btn1 {
     font-size: 1rem;
-    text-underline-offset: 4px;
   }
   .offer-btn2 {
     font-size: 1rem;
@@ -1466,7 +1466,6 @@ footer {
   }
   .offer-btn1 {
     font-size: 1rem;
-    text-underline-offset: 4px;
   }
   .offer-btn2 {
     font-size: 1rem;
